@@ -1,0 +1,1 @@
+<full contract logic already stored>

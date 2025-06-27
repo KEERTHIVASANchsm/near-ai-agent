@@ -1,0 +1,1 @@
+<NEAR wallet and contract setup>

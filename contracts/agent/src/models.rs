@@ -1,0 +1,1 @@
+<models with Intent struct>

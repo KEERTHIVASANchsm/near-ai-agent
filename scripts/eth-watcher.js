@@ -1,0 +1,1 @@
+// Ethereum watcher script using ethers.js and CoinGecko
