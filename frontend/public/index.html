@@ -1,1 +1,72 @@
-<html template>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AI Investment Agent - Autonomous portfolio management on NEAR Protocol" />
+    
+    <title>NEAR AI Investment Agent</title>
+    
+    <!-- NEAR Wallet Styles -->
+    <link rel="stylesheet" href="https://wallet.testnet.near.org/assets/css/near-wallet.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    
+    <style>
+        :root {
+            --primary-color: #2b6af0;
+            --secondary-color: #4f46e5;
+            --dark-bg: #1a202c;
+            --card-bg: #2d3748;
+            --text-light: #e2e8f0;
+            --text-muted: #a0aec0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            line-height: 1.5;
+        }
+        
+        code {
+            font-family: 'Roboto Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+    <noscript>
+        <strong>
+            We're sorry but this application doesn't work properly without JavaScript enabled.
+            Please enable it to continue.
+        </strong>
+    </noscript>
+    
+    <div id="root"></div>
+    
+    <!-- NEAR Wallet Script -->
+    <script src="https://wallet.testnet.near.org/assets/js/near-wallet.js"></script>
+    
+    <!-- Ethereum Provider -->
+    <script>
+        // Check for Ethereum provider
+        if (typeof window.ethereum === 'undefined') {
+            console.warn('MetaMask not detected!');
+            // You could show a notification to the user here
+        }
+    </script>
+</body>
+</html>
